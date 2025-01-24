@@ -15,9 +15,9 @@ using namespace std;
 
 int main()
 {
-	float hoursworked;
-	float payrate;
-	float grosspay;
+	double hoursworked;
+	double payrate;
+	double grosspay;
 	cout << "How many hours did you work this week? \n";
 	cin >> hoursworked;
 	cout << "How much do you make per hour? \n";
