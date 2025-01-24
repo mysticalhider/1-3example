@@ -9,11 +9,11 @@ Requirements:
 	display it
 
 */
+
 #include <iomanip>
 using namespace std;
 #include <iostream>
 using namespace std;
-
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 	cout << "How much do you make per hour? \n";
 	cin >> payrate;
 	grosspay = hoursworked * payrate;
-	cout << "You worked " << hoursworked << " hours this week while your hourly rate is $" <<fixed << setprecision(2) << payrate << ". \n";
+	cout << "You worked " << hoursworked << " hours this week while your hourly rate is $" << fixed << setprecision(2) << payrate << ". \n";
 	cout << fixed << setprecision(2) << "You made $" << grosspay << " this week. WOW!";
 
 }
