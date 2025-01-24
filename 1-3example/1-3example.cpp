@@ -7,14 +7,11 @@ Requirements:
 	ask pay rate
 	compute gross pay
 	display it
-
 */
-
 #include <iomanip>
 using namespace std;
 #include <iostream>
 using namespace std;
-
 int main()
 {
 	double hoursworked;
@@ -27,5 +24,4 @@ int main()
 	grosspay = hoursworked * payrate;
 	cout << "You worked " << hoursworked << " hours this week while your hourly rate is $" << fixed << setprecision(2) << payrate << ". \n";
 	cout << fixed << setprecision(2) << "You made $" << grosspay << " this week. WOW!";
-
 }
