@@ -17,11 +17,11 @@ int main()
 	double hoursworked;
 	double payrate;
 	double grosspay;
-	cout << "How many hours did you work this week? \n";
+	cout << "How many hours of overtime did you work this week? \n";
 	cin >> hoursworked;
 	cout << "How much do you make per hour? \n";
 	cin >> payrate;
 	grosspay = hoursworked * payrate;
 	cout << "You worked " << hoursworked << " hours this week while your hourly rate is $" << fixed << setprecision(2) << payrate << ". \n";
 	cout << fixed << setprecision(2) << "You made $" << grosspay << " this week. WOW!";
-}
+} 
